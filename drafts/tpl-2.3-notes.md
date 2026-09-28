@@ -37,9 +37,9 @@ copy).
    | 9 | 10 | Limitation of Liability |
    | 11-15 | 11-15 | unchanged |
 
-   All internal cross-references were remapped and machine-audited: 49
+   All internal cross-references were remapped and machine-audited: 51
    references checked, zero dangling. / 章节按叙事逻辑重排，全部内部交叉引用
-   已重映射并机器审计：49 处引用零悬空。
+   已重映射并机器审计：51 处引用零悬空。
 
 3. **Compression / 压缩**: net size 46,437 → 44,483 bytes despite ~3.5 KB of
    new clauses (legacy text compressed ~15%: preamble, §8, §9, §10, §4 lists).
@@ -140,8 +140,15 @@ copy).
    — confirm intent. / 专利授权范围措辞请确认。（未变）
 2. §11.5 automatic reinstatement window (60 days, first breach only) —
    confirm. / 自动复权窗口（60 天、仅首次）请确认。
-3. §12.2 three Designation granularities (law only / law+exclusive forum /
-   law+non-exclusive forum) — confirm. / 管辖指定的三档粒度请确认。
+3. §12 dispute resolution — final shape: Designation granularities (a) law
+   only, (b) law+exclusive forum, (c) law+non-exclusive forum, (d) law +
+   arbitration (SIAC/HKIAC example); plus NEW §12.3 licensee election of
+   neutral arbitration (one arbitrator, English, seat Singapore/HK, per-dispute)
+   with court carve-out for urgent interim relief; mandatory-law savings now
+   §12.4; §11.6 costs extend to arbitration. / 争议解决定稿：指定四档（含仲裁
+   档）+ 新增 §12.3 被许可人选中立仲裁权（单仲裁员、英文、新加坡/香港、按争议
+   逐次选举）+ 法院紧急救济保留；强制法条款顺移 §12.4；§11.6 费用条款扩展到
+   仲裁。
 4. §6.4(e) embeddings carve-out wording — confirm. / 嵌入向量条款措辞请确认。
 5. Preamble compression — confirm the shorter principles list. / 序言压缩后
    的原则清单请确认。

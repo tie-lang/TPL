@@ -125,10 +125,19 @@ copy).
 - Wording sweep: zero occurrences of "Source Code" / "Object Code" /
   "proprietary software". / 措辞清扫：三处软件化措辞零残留。
 
+## §4.4 AI clause — external review amendments / §4.4 外部评审修订（已采纳）
+
+| Issue | Amendment |
+|-------|-----------|
+| Typology gap: Model Weights classified as neither Licensed Material, Object Form, Derivative Work, nor User Work | §4.4(b): Model Weights expressly **constitute a User Work of the trainer** (§1.7); same for fine-tuned/merged artifacts and embeddings (§4.4(e)) |
+| "substantial verbatim portions" unquantified | §4.4 intro defines **"substantial portions"** per the EU substantial-part standard (Directive 96/9/EC, Art. 7, CJEU case law): qualitative/quantitative significance or prejudice to the Licensor's legitimate interests; applies to §4.4(c) and (e) |
+| "fine-tuning" techniques not enumerated | §4.4(a): expressly includes **RLHF/RLAIF, LoRA and other parameter-efficient adaptation, knowledge distillation** |
+| Trademark / unfair competition in training not addressed | New **§4.4(g)**: nothing in §4.4 limits or defends against trademark, unfair competition, passing-off, or misappropriation law (to the extent not preempted), subject to §8 nominative-use permissions |
+
 ## Review checklist / 审阅清单
 
 1. §3.1 patent scope wording (Apache-style necessity + acquisition carve-out)
-   — confirm intent. / 专利授权范围措辞请确认。
+   — confirm intent. / 专利授权范围措辞请确认。（未变）
 2. §11.5 automatic reinstatement window (60 days, first breach only) —
    confirm. / 自动复权窗口（60 天、仅首次）请确认。
 3. §12.2 three Designation granularities (law only / law+exclusive forum /
@@ -136,3 +145,6 @@ copy).
 4. §6.4(e) embeddings carve-out wording — confirm. / 嵌入向量条款措辞请确认。
 5. Preamble compression — confirm the shorter principles list. / 序言压缩后
    的原则清单请确认。
+
+6. §4.4 review amendments above — confirm the four amendments. / 上表四项
+   §4.4 修订请确认。

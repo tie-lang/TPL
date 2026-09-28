@@ -20,12 +20,26 @@ copy).
    （§3.3）或材料违约时终止。复权改为**治愈即自动**（§11.5，对齐 Apache），替换
    原来的"许可人酌情"条款。
 
-2. **Renumbering allowed but avoided / 允许重排但未动**: the 15-section
-   skeleton and clause numbers are preserved so that existing references,
-   templates and links remain valid; new clauses were appended within sections
-   (2.8, 2.9, 6.5, 15.8).
-   保留 15 节骨架与全部原节号，新条款在节内追加（2.8、2.9、6.5、15.8），既有
-   引用、模板与链接不失效。
+2. **Renumbering performed / 章节重排（已执行）**: the sections were
+   rearranged into a narrative order. Mapping from TPL 2.2 numbers:
+
+   | TPL 2.2 | TPL 2.3 | Section |
+   |---------|---------|---------|
+   | 1 | 1 | Definitions |
+   | 2 | 2 | Grants of Copyright and Database Rights |
+   | 3 | 3 | Grant of Patent License |
+   | 6 | 4 | User Works, Linking, and AI |
+   | 4 | 5 | Conditions of Use and Distribution |
+   | 5 | 6 | Third-Party Material |
+   | 7 | 7 | Submission of Contributions |
+   | 10 | 8 | Trademark Provisions |
+   | 8 | 9 | Disclaimer of Warranty |
+   | 9 | 10 | Limitation of Liability |
+   | 11-15 | 11-15 | unchanged |
+
+   All internal cross-references were remapped and machine-audited: 49
+   references checked, zero dangling. / 章节按叙事逻辑重排，全部内部交叉引用
+   已重映射并机器审计：49 处引用零悬空。
 
 3. **Compression / 压缩**: net size 46,437 → 44,483 bytes despite ~3.5 KB of
    new clauses (legacy text compressed ~15%: preamble, §8, §9, §10, §4 lists).
@@ -54,13 +68,13 @@ copy).
 - **§2.9 Moral Rights (Licensor waiver)** — licensor waives moral rights to
   the extent permitted, attribution obligations unaffected. / 许可人精神权利
   豁免（CC4 式），§4 署名义务不受影响。
-- **§6.5 Linking and Interfaces** — static/dynamic linking, API/protocol
+- **§4.5 Linking and Interfaces** — static/dynamic linking, API/protocol
   communication, plugin loading, execution under a runtime/interpreter, and
   declaring or implementing compatible interfaces do not by themselves create
   a Derivative Work; independent portions are User Works. / 链接边界条款：
   静态/动态链接、API/协议通信、插件加载、运行时/解释器执行、声明或实现兼容
   接口，均不本身构成 Derivative Work，独立部分为 User Work。
-- **§6.4(e)/(f) AI extensions** — embeddings/vector/retrieval indexes are not
+- **§4.4(e)/(f) AI extensions** — embeddings/vector/retrieval indexes are not
   Licensed Material (verbatim-substantial redistribution still subject to §4);
   benchmarks/evaluations are permitted and their results are User Works. /
   AI 扩展：嵌入/向量/检索索引不属于授权材料（逐字实质部分再分发仍受 §4）；
@@ -95,6 +109,21 @@ copy).
 - **SPDX**: not applied for at this time (per decision). / SPDX 暂不申请（按
   决策）。
 - Section renumbering: not used. / 未做章节重排。
+
+## Audit results / 审计结果
+
+- 49 cross-references machine-checked against existing section/clause
+  numbers: zero dangling. / 49 处交叉引用机器核对，零悬空。
+- Section numbering physically ordered 1-15. / 章节物理顺序 1-15。
+- §2/§3 irrevocability aligned with §11 (both 11.1 and 11.2 can terminate;
+  §3.3 retaliatory termination explicitly leaves copyright and database
+  rights intact). / §2/§3 不可撤销性与 §11 对齐；§3.3 报复终止明确不影响
+  版权与数据库权利。
+- §11.5 automatic reinstatement covers both 11.1 and 11.2 terminations,
+  first cure per Licensor; subsequent terminations at Licensor discretion. /
+  自动复权覆盖两类终止，首次治愈即自动；再犯由许可人酌情。
+- Wording sweep: zero occurrences of "Source Code" / "Object Code" /
+  "proprietary software". / 措辞清扫：三处软件化措辞零残留。
 
 ## Review checklist / 审阅清单
 

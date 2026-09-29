@@ -14,34 +14,22 @@ organization.
 PREAMBLE
 
 The Tie Public License is a permissive, attribution-based open source license
-governing the use, reproduction, modification, and distribution of any works,
-materials, or other subject matter of any kind — software, documents, fonts,
-datasets, media, models, hardware designs, or anything else — released under it
-by a Licensor. It is general-purpose and field-of-use neutral: anyone may adopt
-it for any kind of work, and anyone may use licensed works for any purpose.
+for works of any kind — software, documents, fonts, datasets, media, models,
+hardware designs, or anything else. It is general-purpose and field-of-use
+neutral: anyone may adopt it for any kind of work, and anyone may use licensed
+works for any purpose.
 
-This License is founded on and embodies the following principles:
-
-  * Permission. The Licensed Material may be used, copied, modified, and
-    redistributed by anyone, for any purpose, whether commercial or
-    non-commercial, subject only to the conditions set forth in this License.
-
-  * Attribution. The rights of authors are respected: attribution and notice
-    obligations protect the Licensor, Contributors, and every rightsholder in
-    the distribution chain, and the goodwill associated with names and marks
-    is protected by the trademark provisions of this License.
-
-  * User Works. The fruits of the work belong to the community: works that You
-    author for or with the Licensed Material are Your own — this License
-    governs the Licensed Material itself, not what You build with it.
-
-  * Third parties. The rights of third parties whose assets accompany the
-    Licensed Material are respected, and their notices pass through with every
-    copy.
-
-  * Universality. The grants extend to every person and legal entity, without
-    limitation by identity, affiliation, geography, or number, and to every
-    kind of use.
+Its principles: the Licensed Material may be used, copied, modified, and
+redistributed by anyone, for any purpose, subject only to the conditions of
+this License (Permission); attribution and notice obligations protect the
+Licensor, Contributors, and every rightsholder in the distribution chain, and
+the goodwill of names and marks is protected by the trademark provisions
+(Attribution); works that You author for or with the Licensed Material are
+Your own — this License governs the Licensed Material itself, not what You
+build with it (User Works); the rights of third parties whose assets accompany
+the Licensed Material are respected, and their notices pass through with every
+copy (Third parties); and the grants extend to everyone, everywhere, for every
+kind of use (Universality).
 
 By using, copying, modifying, contributing to, or distributing any portion of
 the Licensed Material, You agree to be bound by the terms and conditions of

@@ -1,0 +1,848 @@
+TIE PUBLIC LICENSE
+Version 2.3
+
+Copyright (c) . All rights reserved.
+
+Esta Licencia puede denominarse por su nombre abreviado "TPL" (p. ej., "TPL 2.2").
+
+El texto de esta Licencia es publicado por la organización TIE-LANG como una
+licencia de código abierto genérica y reutilizable. Puede ser adoptada por
+cualquier persona física o jurídica (un "Licenciante") que distribuya o ponga a
+disposición obras bajo esta Licencia, sin vinculación alguna con, ni
+respaldo por parte de, la organización TIE-LANG.
+
+PREÁMBULO
+
+La Licencia Pública Tie ("Tie Public License") es una licencia de código abierto
+de tipo permisivo, basada en la atribución, diseñada para regir el uso, la
+reproducción, la modificación y la distribución de cualesquiera obras,
+materiales u otros objetos de cualquier índole —incluidos, entre otros, el
+software y los materiales asociados (como código fuente, código objeto,
+documentación, ejemplos, archivos de datos, conjuntos de datos, medios, modelos
+y recursos gráficos)— que un Licenciante publique bajo ella. Es una licencia
+de propósito general y universal: cualquiera puede adoptarla para cualquier
+tipo de obra, y cualquiera puede usar las obras licenciadas para cualquier fin,
+en cualquier ámbito de actividad.
+
+Esta Licencia se fundamenta en, y encarna, los siguientes principios:
+
+  * Se concede permiso para usar, copiar, modificar y redistribuir el Material
+    Licenciado a cualquier persona, para cualquier propósito, sea comercial o
+    no comercial, con sujeción a las condiciones establecidas en esta Licencia.
+
+  * Se respetan los derechos de los autores. Se imponen obligaciones de
+    atribución y de aviso a quienes usen, reproduzcan o redistribuyan el
+    Material Licenciado, y la buena voluntad asociada a los nombres y marcas
+    del Licenciante queda protegida por las disposiciones sobre marcas
+    comerciales de esta Licencia.
+
+  * Los frutos del trabajo del Licenciante y de los Colaboradores pertenecen a
+    la comunidad. En consecuencia, esta Licencia distingue expresamente entre
+    el uso del Material Licenciado en sí mismo y la creación de Obras de
+    Usuario realizadas por los Usuarios para o con el Material Licenciado, y
+    protege la titularidad y la libertad de dichas Obras de Usuario.
+
+  * Se respetan los derechos de terceros cuyos activos acompañen al Material
+    Licenciado. Cuando el Material Licenciado se distribuya junto con activos
+    de titularidad de terceros, las licencias, avisos y obligaciones de
+    atribución asociados a dichos activos se conservan y se trasladan, de modo
+    que quedan protegidos los derechos y la buena voluntad de todo titular en
+    la cadena de distribución.
+
+  * Universalidad. Esta Licencia es de propósito general y neutral en cuanto al
+    ámbito de uso. Sus concesiones se extienden a toda persona y entidad
+    jurídica, sin limitación por identidad, afiliación, geografía o número, y a
+    todo tipo de uso —privado, comercial, educativo, de investigación,
+    gubernamental u otro—, sujeto únicamente a las condiciones expresamente
+    establecidas en esta Licencia.
+
+  * Uso comercial leal. El uso comercial del Material Licenciado está
+    expresamente permitido, y el Licenciante sigue siendo libre de ofrecer
+    acuerdos de licencia comerciales separados. A cambio, los redistribuidores
+    comerciales deben preservar la atribución honesta y la divulgación, de
+    manera que la buena voluntad creada por el trabajo del Licenciante y de los
+    Colaboradores se atribuya de forma equitativa, y de que el Material
+    Licenciado en sí permanezca libre para todos.
+
+Esta Licencia reconoce y protege la distinción entre dos categorías de uso:
+
+  * Uso del Material Licenciado en sí mismo: copiarlo, incorporarlo,
+    redistribuirlo o ejercer de otro modo los derechos concedidos bajo esta
+    Licencia sobre el Material Licenciado. Dicho uso está sujeto a los
+    requisitos de atribución y aviso establecidos en la Sección 4.
+
+  * Uso del Material Licenciado para crear Obras de Usuario: crear obras que
+    Usted realice para o con el Material Licenciado (por ejemplo, programas
+    escritos en un lenguaje de programación distribuido bajo esta Licencia,
+    aplicaciones construidas sobre una biblioteca distribuida bajo esta
+    Licencia, o contenido generado con una herramienta distribuida bajo esta
+    Licencia). Dichas Obras de Usuario son obras propias de Usted, no
+    constituyen Obras Derivadas en el sentido de esta Licencia, y no están
+    sujetas a las condiciones de esta Licencia, salvo en la medida en que
+    incorporen o reproduzcan código fuente del Material Licenciado, conforme a
+    lo dispuesto en la Sección 4.
+
+Esta Licencia es expresamente permisiva: permite el uso comercial, el uso
+privado, la modificación y la redistribución tanto en forma de código fuente
+como de código objeto, incluida la incorporación en productos propietarios y de
+código cerrado, sin imponer obligación alguna de revelar el código fuente de
+sus Obras Derivadas, con sujeción a las condiciones establecidas en esta
+Licencia.
+
+Al usar, copiar, modificar, contribuir a o distribuir cualquier porción del
+Material Licenciado, Usted acepta quedar vinculado por los términos y
+condiciones de esta Licencia. Si Usted no está de acuerdo con dichos términos y
+condiciones, no está autorizado a usar, copiar, modificar ni distribuir el
+Material Licenciado.
+
+SECCIÓN 1 - DEFINICIONES
+
+A los efectos de esta Licencia, los siguientes términos tienen los significados
+que se establecen a continuación. Los términos definidos en singular se
+interpretarán como que incluyen el plural, y viceversa, cuando el contexto así
+lo exija.
+
+1.1 "Material Licenciado" significa, en conjunto, cualesquiera obras,
+materiales u otros objetos de cualquier índole —incluidos, entre otros: (a) las
+bibliotecas de software, herramientas, compiladores, intérpretes, máquinas
+virtuales, entornos de ejecución, aplicaciones, plugins, extensiones y otros
+programas de computador; y (b) la documentación, el código fuente, el código
+objeto, los ejemplos, los datos de muestra, los conjuntos de datos, los
+archivos de configuración, los scripts de compilación, los archivos de medios,
+los modelos, los diseños de hardware y los recursos gráficos (incluidos
+logotipos y obras gráficas)— que (i) hayan sido creados por el Licenciante o
+por cuenta de este, y (ii) sean distribuidos o puestos a disposición por el
+Licenciante bajo esta Licencia.
+
+1.2 "Licenciante" significa la persona física o jurídica, incluidos sus
+herederos, sucesores y cesionarios, que ostenta los derechos de autor sobre el
+Material Licenciado y lo distribuye o lo pone a disposición bajo esta Licencia.
+
+1.3 "Usted" (y la forma posesiva correspondiente, "su") significa la persona
+física o jurídica que ejerce los permisos concedidos por esta Licencia.
+
+1.4 "Código Fuente" significa la forma preferida del Material Licenciado para
+realizar modificaciones en él, incluidos, entre otros, los archivos fuente del
+lenguaje de programación, los archivos de cabecera, los archivos de
+configuración, los scripts de compilación, las fuentes de marcado, las hojas de
+estilo y los datos de programa que no sean Código Objeto.
+
+1.5 "Código Objeto" significa cualquier forma del Material Licenciado que no
+sea Código Fuente, incluidos, entre otros, los binarios compilados, el
+código de bytes, el código máquina, el código intermedio o interpretado, las
+imágenes de máquina virtual, las formas minificadas o agregadas, y cualquier
+forma resultante de una transformación o traducción mecánica del Código Fuente.
+
+1.6 "Obra Derivada" significa toda obra —ya sea en forma de Código Fuente o de
+Código Objeto— que esté basada en el Material Licenciado, derive de él, o que
+lo contenga o incorpore en una parte, ya sea textualmente o con modificaciones,
+traducciones, adaptaciones, extensiones, inserciones, supresiones u otros
+cambios. Una Obra de Usuario creada para o con el Material Licenciado que no
+incorpore ni reproduzca código fuente del Material Licenciado no es una Obra
+Derivada.
+
+1.7 "Obra de Usuario" significa toda obra de autoría —incluidos, entre otros,
+programas de computador, aplicaciones, scripts, documentos, conjuntos de datos
+y otras obras creativas o funcionales— que Usted autorice, cree, produzca o
+genere para o con el Material Licenciado, siempre que dicha obra no sea el
+propio Material Licenciado y no contenga una copia del Código Fuente del
+Material Licenciado, ni lo incorpore textualmente o con modificaciones. Para
+mayor claridad:
+
+  (a) una obra puede ser una Obra de Usuario con independencia de que haya sido
+      realizada o no por un ser humano, e incluye las obras realizadas,
+      generadas o producidas con ayuda del Material Licenciado, incluidas las
+      obras generadas por sistemas de inteligencia artificial o modelos de
+      aprendizaje automático utilizados para o con el Material Licenciado;
+
+  (b) el hecho de que una Obra de Usuario sea realizada, construida,
+      compilada, ejecutada, alojada o de otro modo utilizada materialmente
+      junto con el Material Licenciado —por ejemplo, un programa escrito en un
+      lenguaje de programación distribuido bajo esta Licencia, o una aplicación
+      construida sobre una biblioteca distribuida bajo esta Licencia— no
+      convierte por sí solo dicha Obra de Usuario en una Obra Derivada del
+      Material Licenciado, y el código fuente de dicha Obra de Usuario no es
+      código fuente de Material Licenciado a los efectos de esta Licencia; y
+
+  (c) una Obra de Usuario no incluye un archivo del propio Material Licenciado,
+      ni una modificación de dicho archivo, incluso si se distribuye como
+      parte de una Obra de Usuario.
+
+1.8 "Contribución" significa toda obra de autoría, incluida cualquier
+modificación o adición al Material Licenciado, que Usted o cualquier tercero
+presenten intencionadamente al Licenciante para su inclusión en el Material
+Licenciado. "Presentar" significa cualquier forma de comunicación electrónica,
+verbal o escrita enviada al Licenciante o a sus representantes, incluidas,
+entre otras, las comunicaciones en listas de correo electrónicas, sistemas de
+control de código fuente, sistemas de seguimiento de incidencias, sistemas de
+revisión de código o documentación, que el remitente destine a ser considerada
+para su inclusión en el Material Licenciado.
+
+1.9 "Colaborador" significa toda persona física o jurídica que realice una
+Contribución.
+
+1.10 "Marca" ("Brand Mark") significa los nombres, marcas denominativas,
+logotipos, dispositivos gráficos, imagen de comercio, marcas de servicio y
+otras designaciones identificativas que el Licenciante posea o controle y
+utilice para identificar el Material Licenciado, al Licenciante o la familia de
+productos y servicios ofrecidos por el Licenciante. Cuando el Licenciante
+distribuya un archivo de avisos conforme a la Sección 4.7, la Marca incluye las
+designaciones identificativas designadas en dicho archivo de avisos, pero nada
+en esta Licencia concede derechos sobre marca alguna que no esté expresamente
+designada o poseída por el Licenciante.
+
+1.11 "Distribución" (y el verbo "Distribuir") significa todo acto de poner el
+Material Licenciado u Obras Derivadas a disposición de cualquier tercero por
+cualquier medio, incluidos, entre otros, la venta, la oferta de venta, la
+licencia, la sublicencia, la transmisión, la enajenación, la publicación, la
+carga a una red, repositorio o mercado, la inclusión en una compilación u obra
+colectiva, la exhibición pública, la ejecución pública o la provisión como
+servicio alojado o gestionado.
+
+1.12 "Ley Aplicable" significa las leyes y reglamentos de la jurisdicción en la
+que deban hacerse valer los derechos y obligaciones pertinentes bajo esta
+Licencia, según se determine de conformidad con la Sección 12, junto con
+cualquier disposición imperativa de las leyes de otras jurisdicciones que no
+pueda excluirse ni dejarse sin efecto.
+
+1.13 "Material de Terceros" significa toda obra de autoría, componente de
+software, conjunto de datos, fuente tipográfica, modelo, archivo de medios u
+otro activo que (a) no sea ni el Material Licenciado ni una Contribución; (b)
+sea poseído, licenciado o controlado por una persona o entidad distinta del
+Licenciante o de cualquier Colaborador; y (c) se incluya como paquete, se
+incorpore o se ponga a disposición junto con el Material Licenciado, ya sea
+identificado en un archivo de avisos, en un manifiesto de activos de terceros
+(con cualquier denominación, como "THIRD-PARTY-NOTICES" o "CREDITS") o en la
+documentación que lo acompañe.
+
+1.14 "Titular de Derechos de Terceros" significa la persona física o jurídica
+que posee u ostenta derechos sobre un Material de Terceros.
+
+1.15 "Entidad Vinculada" ("Affiliate") significa, respecto de una parte,
+cualquier entidad jurídica que controle de forma directa o indirecta a dicha
+parte, esté controlada por ella o esté bajo control conjunto con ella, donde
+"control" significa la propiedad de más del cincuenta por ciento (50%) de los
+derechos de voto de la entidad, o el poder de dirigir o provocar la dirección
+de su gestión y políticas.
+
+SECCIÓN 2 - CONCESIÓN DE LICENCIA DE COPYRIGHT
+
+Con sujeción a los términos y condiciones de esta Licencia, el Licenciante y
+cada Colaborador conceden por la presente a Usted una licencia de copyright
+perpetua, mundial, no exclusiva, libre de regalías e irrevocable (salvo lo
+dispuesto en las Secciones 3.1, 3.3 y 11) para:
+
+2.1 Reproducir y Usar — reproducir, ejecutar, correr y usar el Material
+Licenciado, en su totalidad o en parte, en cualquier medio, formato o contexto,
+para cualquier propósito, sea comercial o no comercial, y en cualquier ámbito
+de actividad, sin importar la identidad, afiliación o ubicación del usuario;
+
+2.2 Modificar — modificar, traducir, adaptar, transformar, portar y preparar de
+otro modo Obras Derivadas del Material Licenciado;
+
+2.3 Distribuir — Distribuir, vender, ofrecer en venta, sublicenciar, exhibir
+públicamente, ejecutar públicamente y transferir de otro modo copias del
+Material Licenciado y de Obras Derivadas de este, en forma de Código Fuente o
+de Código Objeto, a través de cualquier canal de Distribución; y
+
+2.4 Relicenciar — con sujeción a las condiciones de la Sección 4, conceder
+ulteriores licencias sobre el Material Licenciado y sus Obras Derivadas bajo
+cualesquiera términos que Usted elija, incluidos los términos de otras
+licencias, siempre que dicha concesión no se utilice para eludir o evitar las
+condiciones y obligaciones que esta Licencia le impone.
+
+2.5 Naturaleza de la Concesión — Esta Licencia es expresamente permisiva
+respecto del Código Fuente del Material Licenciado. No se le exige revelar,
+publicar ni liberar el Código Fuente de sus Obras Derivadas, y Usted es libre
+de incorporar el Código Fuente del Material Licenciado en productos
+propietarios, comerciales y de código cerrado, siempre que cumpla con los
+requisitos de atribución de la Sección 4. Las concesiones de esta Sección se
+otorgan además de, y sin limitar, cualesquiera excepciones y limitaciones al
+copyright que la Ley Aplicable prevea, incluidos, entre otros, el uso justo
+("fair use"), la gestión equitativa ("fair dealing") y la cita permitida.
+
+2.6 Concesión Universal — Las concesiones de esta Licencia son universales. Se
+extienden a toda persona y entidad jurídica, sin limitación por número,
+identidad, afiliación, geografía o ámbito de actividad, y a todo tipo de uso
+del Material Licenciado y de sus Obras Derivadas, sea privado, comercial,
+educativo, de investigación, científico, artístico, benéfico o gubernamental.
+Ningún caso de uso, ámbito de uso o categoría de usuario queda excluido, salvo
+lo expresamente previsto en esta Licencia.
+
+2.7 Reserva de Licenciamiento Comercial — Nada en esta Licencia impide que el
+Licenciante ofrezca, bajo términos separados, licencias o renuncias a
+cualquiera de las condiciones de esta Licencia (una "Licencia Comercial"),
+incluido a cambio de un pago u otra contraprestación. La disponibilidad del
+Material Licenciado bajo esta Licencia no agota, limita ni renuncia al derecho
+del Licenciante a conceder dichas Licencias Comerciales, y Usted no adquiere
+derecho alguno a exigir, fijar el precio de, ni dictar los términos de cualquier
+Licencia Comercial de esa índole.
+
+SECCIÓN 3 - CONCESIÓN DE LICENCIA DE PATENTES
+
+3.1 Concesión — Con sujeción a los términos y condiciones de esta Licencia, el
+Licenciante y cada Colaborador conceden por la presente a Usted una licencia de
+patentes perpetua, mundial, no exclusiva, libre de regalías e irrevocable
+(salvo lo dispuesto en esta Sección 3) para fabricar, mandar fabricar, usar,
+ofrecer en venta, vender, importar y transferir de otro modo el Material
+Licenciado, entendiéndose que dicha licencia se aplica únicamente a aquellas
+reivindicaciones de patente licenciables por dicho Licenciante o Colaborador
+que sean necesariamente infringidas por su(s) Contribución(es), por sí sola o
+en combinación con el Material Licenciado al que se presentaron dichas
+Contribución(es). Si Usted inicia un litigio de patentes contra cualquier
+entidad (incluida una reconvención o contrademanda en un litigio) alegando que
+el Material Licenciado o una Contribución incorporada en el Material Licenciado
+constituye una infracción directa o de contribución de patente, entonces
+cualquier licencia de patente concedida a Usted bajo esta Licencia para dicho
+Material Licenciado terminará en la fecha de presentación de dicho litigio.
+
+3.2 Sin Licencia de Patente Implícita — Con sujeción a, y salvo lo expresamente
+dispuesto en la Sección 3.1, esta Licencia no concede, ni se considerará que
+concede, por implicación, doctrina del impedimento ("estoppel") o de otro
+modo, licencia ni derecho de titularidad alguno bajo cualquier patente poseída
+o controlada por el Licenciante o cualquier Colaborador. Nada en esta Licencia
+se interpretará como que concede a Usted derechos bajo cualquier reivindicación
+de patente que no sea infringida por la versión del Material Licenciado tal
+como fue puesta a disposición por el Licenciante.
+
+3.3 Terminación Represalia por Reclamaciones de Propiedad Intelectual — Si
+Usted, o cualquiera de sus Entidades Vinculadas, inicia un litigio u otro
+procedimiento formal contra el Licenciante, cualquier Colaborador o cualquiera
+de sus Entidades Vinculadas (incluida una reconvención o contrademanda en un
+litigio, pero excluido un procedimiento defensivo interpuesto únicamente en
+respuesta a una reclamación formulada primero contra Usted) alegando que el
+Material Licenciado, cualquier Contribución o cualquier Obra Derivada de estos
+constituye una infracción directa o de contribución de cualquier derecho de
+autor, marca, imagen de comercio, patente u otro derecho de propiedad
+intelectual, entonces todos los derechos y licencias concedidos a Usted bajo
+esta Licencia para el Material Licenciado terminarán en la fecha de
+presentación de dicho litigio o procedimiento. La terminación bajo esta
+Sección 3.3 no afecta a los derechos de ninguna otra persona que haya recibido
+copias del Material Licenciado de Usted antes de dicha terminación.
+
+SECCIÓN 4 - CONDICIONES DE USO Y DISTRIBUCIÓN
+
+Las condiciones de esta Sección se aplican únicamente al uso y la Distribución
+por Usted del Código Fuente y el Código Objeto del Material Licenciado, y de
+sus Obras Derivadas, según dichos términos se definen en la Sección 1. No se
+aplican a las Obras de Usuario que Usted cree para o con el Material Licenciado.
+Una Obra de Usuario puede Distribuirse libre de regalías y sin obligación
+alguna de incluir avisos de copyright ni una copia de esta Licencia, siempre
+que no incorpore ni reproduzca Código Fuente del Material Licenciado.
+
+4.1 Conservación de los Avisos — Obligatoria. Todo uso, reproducción o
+Distribución del Código Fuente del Material Licenciado, sea en su totalidad o
+en parte, sea textual o modificado, y con o sin transmisión a cualquier
+tercero, debe ir acompañado de:
+
+  (a) la conservación, íntegra y sin alteración, del aviso de copyright original
+      y de todas las demás líneas de atribución o aviso que acompañaban al
+      Material Licenciado; y
+
+  (b) una copia del texto completo de esta Licencia, o una referencia directa
+      al mismo (como un Localizador Uniforme de Recursos), en una forma que
+      haga la Licencia fácilmente accesible para cualquier persona que reciba,
+      o a la que se conceda de otro modo acceso al, Código Fuente del Material
+      Licenciado o a cualquier Obra Derivada de este.
+
+4.2 Redistribución en Forma de Código Fuente — Cuando Usted Distribuya Código
+Fuente del Material Licenciado u Obras Derivadas de este en forma de Código
+Fuente, debe conservar, en cada copia que Distribuya, al menos los avisos de
+copyright originales y el texto completo de esta Licencia, sin alteración.
+
+4.3 Redistribución en Forma de Código Objeto — Si Usted incorpora Código Fuente
+del Material Licenciado u Obras Derivadas de este en un producto que se
+Distribuye en forma de Código Objeto, o lo incorpora o combina de otro modo con
+otro producto o una compilación, dicho producto o compilación debe incluir, en
+la documentación u otros materiales que se Distribuyan con él, una copia
+legible del aviso de copyright original y del texto completo de esta Licencia,
+o una referencia (puntero) a los mismos.
+
+4.4 Señalización de las Modificaciones — Mejor Esfuerzo. Cuando Usted modifique
+un archivo del Material Licenciado, se le anima, como cortesía más que como
+obligación estricta, a añadir un aviso en la cabecera del archivo modificado
+que indique la naturaleza y fecha de su modificación y la identidad del
+modificador. El cumplimiento de esta cláusula constituye un gesto de mejor
+esfuerzo; no es una condición previa al ejercicio de los derechos concedidos
+bajo esta Licencia.
+
+4.5 Sin Restricciones Adicionales — Usted no puede imponer, ofrecer ni intentar
+imponer a ningún receptor ningún término, condición o restricción adicional que
+altere o limite los derechos u obligaciones concedidos por esta Licencia
+respecto del Material Licenciado, salvo respecto de sus propias Obras
+Derivadas, según lo permitido por la Sección 2.4. Usted puede imponer términos
+adicionales únicamente sobre sus propias Obras Derivadas, y es el único
+responsable de las obligaciones que asuma frente a los receptores de dichas
+Obras Derivadas.
+
+4.6 Sin Respaldos — El uso del Material Licenciado no implica, ni deberá
+representarse como que implica, certificación, patrocinio, respaldo ni
+afiliación alguna con el Licenciante o cualquier Colaborador respecto de sus
+Obras Derivadas, salvo lo expresamente permitido por la Sección 10.
+
+4.7 Archivo de Avisos — Opcional. El Licenciante podrá, a su opción, Distribuir
+el Material Licenciado junto con un archivo de avisos con un título claro (como
+"NOTICE" o "NOTICES") que identifique, sin limitación: (a) el nombre y los
+medios de contacto del Licenciante; (b) la Marca; (c) líneas adicionales de
+atribución o crédito requeridas o solicitadas por el Licenciante; y (d) avisos
+de terceros que el Licenciante esté obligado a propagar, incluidos los avisos
+del Material de Terceros descrito en la Sección 5. Cuando se proporcione dicho
+archivo de avisos:
+
+  (a) Usted debe conservar, en cada copia que Distribuya, el contenido
+      sustantivo del archivo de avisos, sin alterar, y debe incluir dicho
+      contenido en cualquier forma de redistribución que incluya el Material
+      Licenciado, sea en forma de Código Fuente o de Código Objeto; y
+
+  (b) Usted puede añadir sus propios avisos al archivo de avisos, pero dichas
+      adiciones deben identificarse claramente como propias y no deben
+      falsear, oscurecer ni eliminar los avisos del Licenciante o de cualquier
+      tercero.
+
+Nada en esta Sección 4.7 obliga a un Licenciante a proporcionar un archivo de
+avisos, y la ausencia de un archivo de avisos no disminuye ni altera ninguna
+otra obligación bajo esta Licencia.
+
+4.8 Servicios Alojados — Cuando el Material Licenciado o una Obra Derivada de
+este se ponga a disposición como servicio alojado o gestionado, en el sentido
+de la Sección 1.11, se considerará que las obligaciones de las Secciones 4.1 a
+4.3 quedan satisfechas si los avisos de copyright descritos en la Sección
+4.1(a) y una copia del texto completo de esta Licencia, o una referencia
+directa al mismo (como un Localizador Uniforme de Recursos), se ponen a fácil
+disposición de los usuarios de dicho servicio, por ejemplo en la documentación
+del servicio, una página "acerca de" o los términos del servicio. Nada en esta
+Sección 4.8 le impone obligación alguna de revelar el Código Fuente del
+servicio ni de ninguna Obra Derivada operada como servicio alojado.
+
+4.9 Atribución Destacada — Cuando Usted incorpore Código Fuente del Material
+Licenciado u Obras Derivadas de este en un producto que se Distribuye a
+usuarios finales, los avisos requeridos por las Secciones 4.1 a 4.3 deben
+presentarse en una forma razonablemente destacada y accesible para los
+receptores del producto, incluida, cuando el producto cuente con una sección
+"Acerca de", "Créditos", "Avisos Legales" o similar, la inclusión en dicha
+sección. La mera inclusión en archivos legibles por máquina, registros del
+instalador u otras ubicaciones no razonablemente accesibles para los usuarios
+finales no satisface esta Sección para los productos que se Distribuyen a
+usuarios finales, sin perjuicio de la suficiencia de dicha ubicación para
+otras formas de Distribución.
+
+4.10 Distribución Comercial Honesta — Usted puede cobrar por la Distribución
+del Material Licenciado o de sus Obras Derivadas. No obstante, Usted no debe:
+
+(a) representar que el propio Material Licenciado es software propietario o
+    licenciado en exclusiva a Usted; (b) imponer a cualquier receptor del
+    Material Licenciado restricción alguna sobre los derechos de dicho receptor
+    bajo esta Licencia; o (c) cuando Usted Distribuya el propio Material
+    Licenciado, en contraposición a una Obra Derivada o a un producto de mayor
+    tamaño que lo incorpore, a cambio de un pago, omitir divulgar claramente
+    que el Material Licenciado está también disponible de forma gratuita bajo
+    esta Licencia. Esta Sección no impide que Usted cobre por sus Obras
+    Derivadas, software adicional, servicios, soporte, mantenimiento o
+    garantías.
+
+SECCIÓN 5 - MATERIAL DE TERCEROS
+
+5.1 Identificación y Términos Separados — El Material Licenciado puede
+Distribuirse junto con, incorporar, depender de o hacer referencia a Material
+de Terceros. El Material de Terceros no es Material Licenciado, no es una
+Contribución y no se licencia a Usted bajo esta Licencia. Nada en esta Licencia
+concede, limita ni modifica derecho u obligación alguna respecto del Material
+de Terceros; dichos derechos y obligaciones se rigen exclusivamente por los
+términos bajo los cuales el correspondiente Titular de Derechos de Terceros lo
+pone a disposición.
+
+5.2 Cumplimiento de los Términos de Terceros — Obligatorio. Cuando Usted use,
+reproduzca, modifique o Distribuya el Material Licenciado en cualquier forma
+que incluya, transmita o vaya acompañada de Material de Terceros, debe cumplir,
+en la medida aplicable, con todos los términos, condiciones y obligaciones bajo
+los cuales dicho Material de Terceros se pone a disposición, incluidos, entre
+otros, la conservación de los avisos de copyright, licencia, atribución y
+exención de responsabilidad de terceros, y cualquier obligación de proporcionar
+el código fuente o una oferta escrita del mismo, según lo requiera la licencia
+de dicho Material de Terceros.
+
+5.3 Conservación de los Avisos de Terceros — Cuando el Licenciante haya
+Distribuido un archivo de avisos conforme a la Sección 4.7 o un manifiesto de
+activos de terceros que identifique el Material de Terceros y sus Titulares de
+Derechos de Terceros, Usted debe conservar el contenido sustantivo de dichos
+avisos de terceros, sin alterar, en cada copia que Distribuya que incluya el
+correspondiente Material de Terceros, y debe incluir dicho contenido en
+cualquier redistribución en forma de Código Fuente o de Código Objeto.
+
+5.4 Sin Eliminación ni Falseamiento — Usted no debe eliminar, alterar, oscurecer
+ni falsear ningún aviso de copyright, licencia, atribución ni exención de
+responsabilidad relacionado con el Material de Terceros; no debe representar el
+Material de Terceros como obra original propia ni como licenciado bajo esta
+Licencia; y no debe usar esta Licencia para relicenciar, sublicenciar ni
+reformular los términos del Material de Terceros.
+
+5.5 Conflicto de Términos — Cuando los términos de licencia aplicables a un
+elemento de Material de Terceros entren en conflicto con esta Licencia, dichos
+términos prevalecen únicamente respecto de ese elemento de Material de
+Terceros, y esta Licencia sigue rigiendo el resto del Material Licenciado.
+
+5.6 Sin Garantía de Derechos de Terceros — El Licenciante no formula
+declaración ni garantía alguna respecto del Material de Terceros, incluida, en
+cuanto a su titularidad, estado de licenciamiento o no infracción de derechos
+de terceros. Cualquier garantía, soporte o indemnización relacionados con el
+Material de Terceros se rigen exclusivamente por los términos de dicho Material
+de Terceros.
+
+5.7 Ejecución — Cada Titular de Derechos de Terceros es un tercero beneficiario
+previsto de las Secciones 4.7, 5.2, 5.3 y 5.4 respecto de su Material de
+Terceros, y puede ejecutar directamente dichas disposiciones contra Usted en la
+medida necesaria para proteger sus derechos sobre su Material de Terceros. A
+los efectos de la Sección 11.2, el incumplimiento de las Secciones 5.2 a 5.4
+constituye un incumplimiento material de esta Licencia.
+
+SECCIÓN 6 - OBRAS DE USUARIO CREADAS CON EL MATERIAL LICENCIADO
+
+6.1 Titularidad — Las Obras de Usuario que Usted cree para o con el Material
+Licenciado son obras propias de Usted. Salvo en la medida en que dichas Obras
+de Usuario incorporen o reproduzcan Código Fuente del Material Licenciado
+conforme a lo dispuesto en la Sección 4, esta Licencia no concede derecho
+alguno sobre, ni impone obligación alguna respecto de, sus Obras de Usuario.
+
+6.2 Sin Atribución en las Obras de Usuario — Usted no está obligado a incluir
+ningún aviso de copyright, texto de licencia, declaración de atribución, marca
+ni enlace a esta Licencia en, o en relación con, cualquier Obra de Usuario que
+cree para o con el Material Licenciado, siempre que dicha Obra de Usuario no
+incorpore ni reproduzca Código Fuente del Material Licenciado.
+
+6.3 Sin Copyleft — Nada en esta Licencia le obliga a licenciar, publicar,
+divulgar ni liberar el Código Fuente de sus Obras de Usuario u Obras Derivadas
+bajo esta Licencia o bajo cualquier otra licencia, y ningún acto de recibir o
+usar el Material Licenciado se interpretará como consentimiento a obligación
+alguna de hacerlo.
+
+6.4 Inteligencia Artificial y Aprendizaje Automático — A los efectos de esta
+Licencia:
+
+  (a) la reproducción del Material Licenciado con el fin de entrenar, ajustar
+      con precisión ("fine-tuning"), evaluar o mejorar de otro modo un modelo
+      de aprendizaje automático o sistema de inteligencia artificial (un
+      "Modelo") constituye un uso y una reproducción del Material Licenciado
+      permitidos bajo la Sección 2, con sujeción a las obligaciones de aviso de
+      la Sección 4.1 respecto de cualquier copia conservada de Código Fuente
+      del Material Licenciado;
+
+  (b) los pesos, parámetros y demás artefactos aprendidos de un Modelo así
+      entrenado no son Código Objeto, ni Obras Derivadas, ni Material
+      Licenciado;
+
+  (c) el resultado generado por un Modelo es una Obra de Usuario de la persona
+      o entidad que lo genera, con independencia de que el Modelo haya sido
+      entrenado o no con el Material Licenciado, y no será, por ese mero hecho,
+      considerado una Obra Derivada del Material Licenciado ni estará sujeto a
+      las condiciones de esta Licencia; siempre que, en la medida en que un
+      resultado incorpore o reproduzca Código Fuente del Material Licenciado,
+      dicha porción siga sujeta a la Sección 4; y
+
+  (d) ninguna obligación de atribución, aviso ni licencia bajo esta Licencia se
+      vincula a los resultados de un Modelo por el mero hecho del
+      entrenamiento.
+
+SECCIÓN 7 - PRESENTACIÓN DE CONTRIBUCIONES
+
+7.1 Concesión de Licencia al Licenciante — Salvo que Usted manifieste
+expresamente lo contrario, cualquier Contribución que presente
+intencionadamente para su inclusión en el Material Licenciado estará sujeta a
+los términos y condiciones de esta Licencia, sin términos ni condiciones
+adicionales. No obstante lo anterior, nada en esta Licencia dejará sin efecto
+ni modificará los términos de ningún acuerdo de licencia separado que Usted
+pudiera haber suscrito con el Licenciante respecto de dichas Contribuciones.
+
+7.2 Declaraciones y Garantías — Al presentar una Contribución, Usted declara y
+garantiza que:
+
+  (a) Usted ostenta pleno derecho, poder y autoridad legales para conceder las
+      licencias concedidas en la Sección 7.1, libres y exentos de toda carga y
+      reclamación de terceros;
+
+  (b) la Contribución es una creación original suya; y
+
+  (c) en la medida en que la Contribución no sea una creación original suya,
+      Usted ha identificado al Licenciante, mediante aviso escrito, la fuente
+      de terceros de la Contribución, y ha obtenido, o garantizado que el
+      Licenciante pueda obtener, todos los derechos y permisos necesarios para
+      incorporar y licenciar la Contribución de conformidad con esta Licencia.
+
+7.3 Sin Obligación de Aceptar — Nada en esta Licencia obliga al Licenciante a
+aceptar, incorporar, integrar ni usar de otro modo cualquier Contribución.
+
+7.4 Derechos Morales — En la máxima medida permitida por la Ley Aplicable, al
+presentar una Contribución Usted renuncia a cualesquiera derechos morales,
+incluidos los derechos de atribución e integridad, que pudiera ostentar sobre
+dicha Contribución en favor del Licenciante, siempre con sujeción a las
+obligaciones de atribución y aviso impuestas por esta Licencia.
+
+SECCIÓN 8 - EXENCIÓN DE GARANTÍA
+
+EL MATERIAL LICENCIADO ES PROPORCIONADO POR EL LICENCIANTE Y LOS COLABORADORES
+"TAL CUAL" Y SEGÚN "ESTÉ DISPONIBLE", SIN GARANTÍAS DE NINGÚN TIPO, YA SEAN
+EXPRESAS, IMPLÍCITAS O LEGALES, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS
+DE COMERCIABILIDAD, APTITUD PARA UN PROPÓSITO DETERMINADO, TITULARIDAD,
+EXACTITUD, NO INFRACCIÓN, Y CUALESQUIERA GARANTÍAS DERIVADAS DEL CURSO DE LA
+GESTIÓN, DEL CURSO DEL RENDIMIENTO O DEL USO DEL COMERCIO.
+
+NO SE OFRECE GARANTÍA ALGUNA DE QUE EL MATERIAL LICENCIADO SEA ININTERRUPTO,
+OPORTUNO, SEGURO O EXENTO DE ERRORES, DE QUE LOS DEFECTOS SEAN CORREGIDOS, DE
+QUE LOS RESULTADOS OBTENIDOS DEL USO DEL MATERIAL LICENCIADO SEAN EXACTOS O
+FIABLES, O DE QUE EL MATERIAL LICENCIADO FUNCIONE EN COMBINACIÓN CON SU
+HARDWARE, SOFTWARE, SISTEMAS O DATOS.
+
+EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY APLICABLE, TODO EL RIESGO DERIVADO DEL
+USO DEL MATERIAL LICENCIADO RECAE SOBRE USTED. ESTA LICENCIA ES CONCEDIDA POR
+EL LICENCIANTE Y CADA COLABORADOR INDIVIDUALMENTE, Y NINGÚN LICENCIANTE NI
+COLABORADOR FORMULA DECLARACIÓN NI GARANTÍA ALGUNA EN NOMBRE DE CUALQUIER OTRO
+LICENCIANTE O COLABORADOR.
+
+SECCIÓN 9 - LIMITACIÓN DE RESPONSABILIDAD
+
+EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY APLICABLE, EN NINGÚN CASO EL LICENCIANTE
+O CUALQUIER COLABORADOR SERÁN RESPONSABLES ANTE USTED O CUALQUIER TERCERO POR
+DAÑOS DIRECTOS, INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES, EJEMPLARES
+O PUNITIVOS (INCLUIDOS, ENTRE OTROS: LA ADQUISICIÓN DE BIENES O SERVICIOS
+SUSTITUTIVOS; LA PÉRDIDA DE USO, DATOS, BENEFICIOS, INGRESOS O BUENA VOLUNTAD;
+LA INTERRUPCIÓN DEL NEGOCIO; LA PÉRDIDA DE PRIVACIDAD; O CUALQUIER PÉRDIDA O
+DAÑO DERIVADO DEL USO POR USTED O UN TERCERO DEL MATERIAL LICENCIADO, O DE LA
+INCAPACIDAD PARA USARLO), CUALQUIERA QUE SEA SU CAUSA Y SOBRE CUALQUIER TEORÍA
+DE RESPONSABILIDAD, YA SEA CONTRACTUAL, EXTRACONTRACTUAL (INCLUIDA LA NEGLIGENCIA
+U OTRA), RESPONSABILIDAD OBJETIVA O DE OTRO TIPO, QUE SURJA DE CUALQUIER MODO
+DEL USO DEL MATERIAL LICENCIADO O DE LA INCAPACIDAD PARA USARLO, INCLUSO SI SE
+HA ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS.
+
+CUANDO LA LEY APLICABLE PROHIBA LA EXCLUSIÓN O LIMITACIÓN DE DETERMINADAS
+RESPONSABILIDADES O DAÑOS, LAS LIMITACIONES Y EXCLUSIONES ANTERIORES SE
+APLICARÁN EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY APLICABLE, Y CUALQUIER
+RESPONSABILIDAD QUE NO PUEDA EXCLUIRSE NI LIMITARSE BAJO LA LEY APLICABLE SE
+REGIRÁ POR DICHA LEY APLICABLE.
+
+SECCIÓN 10 - DISPOSICIONES SOBRE MARCAS COMERCIALES
+
+10.1 Titularidad — La Marca es propiedad exclusiva del Licenciante. Esta
+Licencia no le concede derecho alguno sobre la Marca. Nada en las Secciones 2
+a 9 confiere, por implicación, doctrina del impedimento ("estoppel") o de otro
+modo, derechos de marca, marca de servicio, nombre comercial, imagen de
+comercio o logotipo, ni derecho alguno a usar la Marca.
+
+10.2 Uso Permitido — Sin autorización previa por escrito del Licenciante, Usted
+puede:
+
+  (a) usar el Material Licenciado para crear y Distribuir sus propias Obras de
+      Usuario y Obras Derivadas bajo sus propios términos, con sujeción a las
+      condiciones de la Sección 4;
+
+  (b) referirse a la Marca de manera nominativa y descriptiva en documentación,
+      comentarios de código fuente, presentaciones, materiales de marketing y
+      declaraciones fácticas veraces, incluidas declaraciones de
+      interoperabilidad, compatibilidad o procedencia (por ejemplo, "construido
+      con [Material Licenciado]", "orientado a [Material Licenciado]",
+      "compatible con [Material Licenciado]"); y
+
+  (c) usar la Marca para identificar que una Obra de Usuario o implementación es
+      compatible con el Material Licenciado, está orientada a él o interoperan,
+      siempre que dicho uso sea exacto, veraz y no susceptible de confundir a
+      ninguna persona respecto de la procedencia, patrocinio, afiliación o
+      respaldo.
+
+10.3 Uso Prohibido — Sin la autorización previa y expresa por escrito del
+Licenciante, Usted no debe:
+
+  (a) usar la Marca, o cualquier variante que produzca confusión con ella, como,
+      o como parte de, el nombre, título, marca de servicio o marca de sus
+      propios productos, servicios, herramientas, implementaciones, paquetes,
+      software, nombres de dominio o empresas, de una manera susceptible de
+      causar confusión con el Licenciante o con el Material Licenciado;
+
+  (b) reproducir, modificar, transformar, distorsionar ni crear logotipos o
+      dispositivos gráficos derivados basados en la Marca, incluidos el
+      logotipo, el icono y los recursos gráficos Distribuidos con el Material
+      Licenciado;
+
+  (c) usar la Marca de cualquier manera que pudiera implicar razonablemente que
+      sus productos o servicios cuentan con el apoyo, la certificación, el
+      respaldo, el patrocinio o la afiliación oficiales del Licenciante, o que
+      el Licenciante originó o respalda su trabajo; o
+
+  (d) usar la Marca de cualquier manera que disminuya, diluya, denigre o dañe
+      la buena voluntad asociada a la Marca, o que de otro modo infrinja la Ley
+      Aplicable en materia de marcas, competencia desleal o publicidad
+      engañosa.
+
+10.4 Ejecución — El Licenciante se reserva el derecho de hacer valer sus
+derechos sobre la Marca por todos los medios legales y de equidad disponibles
+bajo la Ley Aplicable, incluidos, entre otros, la solicitud de medidas
+correctoras, la petición de medidas cautelares y la reclamación de daños y
+perjuicios por uso no autorizado.
+
+SECCIÓN 11 - TERMINACIÓN
+
+11.1 Terminación por Incumplimiento — Esta Licencia y los derechos aquí
+concedidos terminarán automáticamente, sin previo aviso, por su incumplimiento
+de cualquier término de esta Licencia, salvo que el incumplimiento se subsane
+dentro de los treinta (30) días siguientes a que Usted tenga conocimiento de, o
+sea notificado de, dicho incumplimiento.
+
+11.2 Incumplimiento Material — El incumplimiento de las obligaciones obligatorias
+de atribución, aviso y cumplimiento respecto de terceros de las Secciones 4 y 5
+con relación al uso o la Distribución del Código Fuente del Material Licenciado
+constituye un incumplimiento material de esta Licencia. Si dicho incumplimiento
+no se subsana dentro de los treinta (30) días siguientes a que Usted tenga
+conocimiento de, o sea notificado de, dicho incumplimiento, los derechos
+concedidos bajo esta Licencia terminarán automáticamente al vencimiento de dicho
+plazo de subsanación, y Usted deberá cesar todo uso, reproducción y Distribución
+del Código Fuente del Material Licenciado hasta que dicho incumplimiento se
+subsame. Si el incumplimiento se subsana dentro del plazo de subsanación, esta
+Licencia y los derechos aquí concedidos seguirán plenamente en vigor y se
+considerará que nunca terminaron por razón de dicho incumplimiento.
+
+11.3 Obras de Usuario No Afectadas — Para evitar dudas, no se considerará que
+incurre en incumplimiento de esta Licencia por el mero hecho de su uso o
+Distribución de Obras de Usuario creadas para o con el Material Licenciado que
+no incorporen ni reproduzcan Código Fuente del Material Licenciado.
+
+11.4 Efecto de la Terminación — Tras la terminación, todas las licencias
+concedidas a Usted bajo esta Licencia terminarán, y sus derechos a usar,
+modificar y Distribuir el Material Licenciado cesarán de inmediato. Las
+Secciones 5.7, 8, 9, 10, 11.4, 11.6, 12, 14 y 15 sobrevivirán a cualquier
+terminación. Si Usted ha sublicenciado cualquier Obra Derivada antes de la
+terminación, dichas sublicencias sobrevivirán a la terminación solo en la
+medida en que no infrinjan los términos de esta Licencia.
+
+11.5 Rehabilitación — Los derechos terminados bajo esta Sección 11 podrán, a
+criterio exclusivo del Licenciante, ser rehabilitados tras la subsanación del
+incumplimiento por Usted y la notificación por escrito al Licenciante de dicha
+subsanación.
+
+11.6 Costas de Ejecución — En cualquier acción o procedimiento para hacer valer
+o interpretar esta Licencia, la parte vencedora tendrá derecho a recuperar sus
+honorarios razonables de abogados y costas, en la medida permitida por la Ley
+Aplicable.
+
+SECCIÓN 12 - LEY APLICABLE Y JURISDICCIÓN
+
+12.1 Ley Aplicable — Esta Licencia se regirá e interpretará conforme a las leyes
+de la jurisdicción en la que el Licenciante tenga su domicilio principal o, en
+su defecto, el lugar de constitución de su actividad, sin consideración a sus
+normas de conflicto de leyes, y sin perjuicio de las disposiciones imperativas
+de la Ley Aplicable que no puedan excluirse por acuerdo entre las partes, ni de
+las disposiciones de la Convención de las Naciones Unidas sobre los Contratos
+de Compraventa Internacional de Mercaderías, cuya aplicación queda expresamente
+excluida en la medida en que resulte aplicable.
+
+12.2 Arbitraje — Cualquier controversia, reclamo o disputa que surja de esta
+Licencia o en relación con ella, incluidas las cuestiones relativas a su
+existencia, validez, interpretación, incumplimiento o terminación, se resolverá
+definitivamente mediante arbitraje ante un único árbitro, conforme al reglamento
+de arbitraje de la institución de arbitraje designada por el Licenciante en el
+aviso de copyright o, en su defecto, conforme al Reglamento de Arbitraje de la
+Comisión de las Naciones Unidas para el Derecho Mercantil Internacional
+(CNUDMI). La sede del arbitraje será la ciudad del domicilio del Licenciante, y
+el idioma del arbitraje será el idioma en que el Licenciante haya Distribuido
+el Material Licenciado. El laudo arbitral será definitivo y vinculante para las
+partes, y podrá hacerse valer ante cualquier tribunal competente.
+
+12.3 Foro Excepcional — No obstante lo dispuesto en la Sección 12.2, cualquiera
+de las partes podrá presentar una demanda ante un tribunal competente para
+solicitar una medida cautelar o una medida provisional equitativa (incluida la
+prohibición de infracción de marca bajo la Sección 10) cuando el arbitraje, en
+razón del tiempo necesario para su celebración, no pueda proporcionar un
+remedio adecuado.
+
+12.4 Naturaleza de esta Licencia — Esta Licencia no constituye, ni deberá
+considerarse que constituye, una sociedad, empresa conjunta, agencia,
+franquicia ni relación de empleo entre el Licenciante y Usted. Ninguna de las
+partes tendrá autoridad alguna para vincular a la otra. Esta Licencia es un
+acuerdo de licencia de derechos de autor, patente y marca entre las partes y no
+crea ningún deber fiduciario, contractual ni de otro tipo entre ellas que no
+esté expresamente estipulado en esta Licencia.
+
+SECCIÓN 13 - DIVISIBILIDAD Y CONSTRUCCIÓN
+
+13.1 Divisibilidad — Si alguna disposición de esta Licencia resultara nula,
+inválida o inaplicable, dicha disposición se interpretará, en la máxima medida
+posible, de manera que produzca sus efectos previstos; y, en la medida
+necesaria, se modificará y el resto de la Licencia seguirá plenamente en vigor,
+como si dicha disposición nunca hubiera formado parte de esta Licencia, siempre
+que la finalidad esencial de esta Licencia no resulte sustancialmente afectada.
+
+13.2 Sin Renuncia — La falta de ejercicio o de ejecución por el Licenciante de
+cualquier derecho bajo esta Licencia no constituirá una renuncia a dicho
+derecho ni a cualquier otro derecho bajo esta Licencia. Ninguna renuncia será
+eficaz salvo que conste por escrito y esté firmada por el Licenciante.
+
+13.3 Construcción — Los encabezamientos de las secciones se incluyen solo por
+comodidad y no afectan a la interpretación de esta Licencia. La palabra
+"incluidos" (y sus variantes) significa "incluidos sin limitación". Cuando el
+contexto lo exija, el singular incluye el plural y el plural incluye el
+singular. Esta Licencia se interpretará de manera razonable para dar efecto a
+la intención de promover el acceso abierto al Material Licenciado y su uso
+amplio, al tiempo que protege la atribución y los derechos del Licenciante y de
+los Colaboradores.
+
+13.4 Acuerdo Íntegro — Esta Licencia constituye el acuerdo íntegro entre las
+partes respecto del Material Licenciado y sustituye todos los acuerdos o
+entendimientos anteriores o simultáneos, escritos o verbales, respecto del
+mismo, salvo que un acuerdo de licencia comercial separado celebrado de
+conformidad con la Sección 2.7 regirá según sus propios términos y, cuando
+estipule expresamente su prevalencia, prevalecerá sobre esta Licencia en la
+medida del conflicto.
+
+SECCIÓN 14 - CESIÓN Y SUCESIÓN
+
+14.1 Cesión — Usted no podrá ceder ni transferir por ningún otro medio ninguno
+de sus derechos u obligaciones bajo esta Licencia, ni por operación de ley ni
+de otro modo, sin el consentimiento previo por escrito del Licenciante.
+Cualquier cesión en contravención de esta Sección será nula. No obstante,
+Usted puede sublicenciar y transferir los derechos concedidos bajo la Sección 2
+respecto de sus Obras Derivadas conforme a la Sección 2.4.
+
+14.2 Sucesión — Los derechos del Licenciante bajo esta Licencia pasarán a sus
+herederos, sucesores y cesionarios. En caso de fusión, escisión, reorganización
+o venta sustancial de activos que incluya el Material Licenciado, los derechos
+y obligaciones del Licenciante pasarán a la entidad sucesora.
+
+SECCIÓN 15 - AVISO DE COPYRIGHT Y OTRAS DISPOSICIONES FINALES
+
+15.1 Fijación de Avisos — El Licenciante puede adjuntar al Material Licenciado
+un aviso de copyright y una declaración de licencia que fijen los términos de
+esta Licencia. Cuando dichos avisos estén adjuntos, se considerará que están
+incorporados por referencia en esta Licencia y forman parte de ella.
+
+15.2 Aceptación — El uso del Material Licenciado constituye aceptación de los
+términos de esta Licencia. Al ejercer cualquier derecho bajo esta Licencia,
+Usted acepta quedar vinculado por sus términos y condiciones.
+
+15.3 Idioma — Esta Licencia puede publicarse en varios idiomas. En caso de
+conflicto entre versiones en diferentes idiomas, prevalecerá la versión
+publicada por el Licenciante en el idioma en que el Material Licenciado fue
+Distribuido por primera vez, salvo que el Licenciante designe expresamente otra
+versión como auténtica.
+
+15.4 Avisos — Cualquier aviso bajo esta Licencia deberá darse por escrito y
+entregarse a la dirección de contacto publicada por el Licenciante junto con el
+Material Licenciado, o por cualquier medio razonable que asegure su recepción.
+
+FIN DE LOS TÉRMINOS Y CONDICIONES
+
+¿CÓMO APLICAR ESTA LICENCIA A SU TRABAJO?
+
+Para aplicar esta Licencia a su obra, adjunte el aviso de aviso al obra,
+con un texto como el siguiente, con los campos entre corchetes sustituidos
+por su propia información identificativa. (No incluya los corchetes.) El
+texto debe estar encerrado en el formato de comentario correspondiente al
+lenguaje de programación o formato de archivo en el que se escriba el
+aviso. Se recomienda colocar el aviso en el archivo principal de la obra,
+además de, o en lugar de, cualquier archivo LICENSE o README que adjunte.
+
+   Copyright (c) [año] [nombre completo del titular de los derechos]
+
+   Distribuido bajo la Licencia Pública Tie, Versión 2.2 ("TPL 2.2").
+   Usted puede usar esta obra conforme a los términos de la TPL 2.2.
+   Una copia de la TPL 2.2 está disponible en:
+   https://github.com/tie-lang/TPL/blob/main/tpl.txt
+
+   O, alternativamente:
+
+   SPDX-License-Identifier: TPL-2.2
